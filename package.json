@@ -1,0 +1,20 @@
+{
+  "name": "voxel-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browserify game.js -o bundle.js && http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "extend": "^3.0.2",
+    "voxel-engine": "^0.20.2",
+    "voxel-fly": "^0.1.2",
+    "voxel-highlight": "0.0.10",
+    "voxel-player": "^0.1.0",
+    "voxel-walk": "0.0.5"
+  }
+}
